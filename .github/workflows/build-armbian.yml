@@ -12,7 +12,7 @@ on:
       set_release:
         description: "RELEASE: focal / bullseye / buster"
         required: false
-        default: "focal"
+        default: "bullseye"
       set_board:
         description: "BOARD: lepotato / odroidn2"
         required: false
@@ -25,7 +25,7 @@ on:
     #- cron: "0 17 * * 0"
 
 env:
-  TZ: Asia/Shanghai
+  TZ: Asia/Taipei
 
 jobs:
   build:
